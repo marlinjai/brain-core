@@ -35,7 +35,9 @@
     "build": "tsup",
     "dev": "tsup --watch",
     "typecheck": "tsc --noEmit",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "docs:dev": "clearify dev",
+    "docs:build": "clearify build"
   },
   "peerDependencies": {
     "hono": "^4.0.0",
@@ -50,6 +52,7 @@
     }
   },
   "devDependencies": {
+    "@marlinjai/clearify": "^1.9.0",
     "@cloudflare/workers-types": "^4.20240117.0",
     "hono": "^4.0.0",
     "tsup": "^8.0.1",
