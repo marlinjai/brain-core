@@ -2,7 +2,7 @@
 title: Brain Core
 description: Shared infrastructure for Brain services
 order: 0
-icon: cpu
+icon: "⚙️"
 ---
 
 # Brain Core
