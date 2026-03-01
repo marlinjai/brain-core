@@ -66,5 +66,6 @@
     "shared"
   ],
   "author": "marlinjai",
-  "license": "MIT"
+  "license": "MIT",
+  "packageManager": "pnpm@9.15.0"
 }
