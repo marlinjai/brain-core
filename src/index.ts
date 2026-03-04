@@ -5,8 +5,8 @@ export { ApiError, createErrorHandler } from './errors';
 export { generateApiKey, hashApiKey, verifyApiKey, timingSafeEqual, generateId } from './crypto';
 
 // Auth
-export { createAuthMiddleware, createAdminAuthMiddleware } from './auth';
-export type { AuthMiddlewareOptions } from './auth';
+export { createAuthMiddleware, createAdminAuthMiddleware, createUserAuthMiddleware } from './auth';
+export type { AuthMiddlewareOptions, UserAuthMiddlewareOptions } from './auth';
 
 // Types
 export type {
@@ -16,6 +16,8 @@ export type {
   BaseVariables,
   BaseEnv,
   BaseAppEnv,
+  BaseUser,
+  BaseUserContext,
   ApiErrorResponse,
 } from './types';
 

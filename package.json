@@ -1,6 +1,6 @@
 {
   "name": "@marlinjai/brain-core",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Shared infrastructure for Brain services (auth, crypto, errors, types)",
   "type": "module",
   "main": "./dist/index.js",
@@ -35,6 +35,8 @@
     "build": "tsup",
     "dev": "tsup --watch",
     "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
     "clean": "rm -rf dist",
     "docs:dev": "clearify dev",
     "docs:build": "clearify build"
@@ -52,11 +54,12 @@
     }
   },
   "devDependencies": {
-    "@marlinjai/clearify": "^1.9.0",
     "@cloudflare/workers-types": "^4.20240117.0",
+    "@marlinjai/clearify": "^1.9.0",
     "hono": "^4.0.0",
     "tsup": "^8.0.1",
     "typescript": "^5.3.3",
+    "vitest": "^4.0.18",
     "zod": "^3.22.4"
   },
   "keywords": [

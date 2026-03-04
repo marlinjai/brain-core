@@ -55,6 +55,23 @@ export type BaseAppEnv<
 };
 
 /**
+ * Base user — services extend with their own fields (roles, permissions, etc.)
+ */
+export interface BaseUser {
+  id: string;
+  email: string;
+  createdAt: number;
+  updatedAt: number;
+}
+
+/**
+ * User context attached to authenticated user requests
+ */
+export interface BaseUserContext<U = BaseUser> {
+  user: U;
+}
+
+/**
  * Standard API error response shape
  */
 export interface ApiErrorResponse {
