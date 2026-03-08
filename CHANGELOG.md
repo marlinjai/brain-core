@@ -1,3 +1,12 @@
+---
+title: Brain Core Changelog
+summary: Version history for Brain Core shared infrastructure package, tracking releases from v0.1.0 through v0.2.0 including auth middlewares, crypto utilities, error handling, and base types for Brain services.
+category: changelog
+tags: [brain-core, changelog, releases, infrastructure]
+status: active
+date: 2026-03-04
+---
+
 # Changelog
 
 All notable changes to this project will be documented in this file.

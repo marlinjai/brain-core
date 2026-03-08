@@ -3,6 +3,11 @@ title: Brain Core
 description: Shared infrastructure for Brain services
 order: 0
 icon: "⚙️"
+summary: Documentation for Brain Core, the shared infrastructure library providing auth middleware, crypto utilities, error handling, types, and validation schemas for all Brain services.
+category: documentation
+tags: [brain-core, infrastructure, auth, crypto, shared-library]
+projects: [brain-core]
+status: active
 ---
 
 # Brain Core
