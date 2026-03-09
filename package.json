@@ -40,7 +40,8 @@
     "clean": "rm -rf dist",
     "docs:dev": "clearify dev",
     "docs:build": "clearify build",
-    "release": "semantic-release"
+    "release": "semantic-release",
+    "prepare": "husky"
   },
   "peerDependencies": {
     "hono": "^4.0.0",
@@ -56,10 +57,13 @@
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240117.0",
+    "@commitlint/cli": "^20.4.3",
+    "@commitlint/config-conventional": "^20.4.3",
     "@marlinjai/clearify": "^1.11.0",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "hono": "^4.0.0",
+    "husky": "^9.1.7",
     "semantic-release": "^25.0.3",
     "tsup": "^8.0.1",
     "typescript": "^5.3.3",
