@@ -1,6 +1,6 @@
 {
   "name": "@marlinjai/brain-core",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Shared infrastructure for Brain services (auth, crypto, errors, types)",
   "type": "module",
   "main": "./dist/index.js",

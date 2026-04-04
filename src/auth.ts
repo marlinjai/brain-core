@@ -82,7 +82,18 @@ export function createAdminAuthMiddleware() {
       throw ApiError.unauthorized('Invalid admin key');
     }
 
-    const isEqual = crypto.subtle.timingSafeEqual(a, b);
+    // Use crypto.subtle.timingSafeEqual (Workers) or fallback to constant-time comparison
+    let isEqual: boolean;
+    if (typeof crypto.subtle?.timingSafeEqual === 'function') {
+      isEqual = crypto.subtle.timingSafeEqual(a, b);
+    } else {
+      // Node.js fallback — constant-time byte comparison
+      let result = 0;
+      for (let i = 0; i < a.byteLength; i++) {
+        result |= (a[i] ?? 0) ^ (b[i] ?? 0);
+      }
+      isEqual = result === 0;
+    }
     if (!isEqual) {
       throw ApiError.unauthorized('Invalid admin key');
     }
