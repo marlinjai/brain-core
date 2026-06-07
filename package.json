@@ -1,5 +1,8 @@
 {
   "name": "@marlinjai/brain-core",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "0.2.1",
   "description": "Shared infrastructure for Brain services (auth, crypto, errors, types)",
   "type": "module",
