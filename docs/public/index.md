@@ -11,7 +11,7 @@ projects: [brain-core]
 
 # Brain Core
 
-Shared infrastructure library used by all Brain services (Storage Brain, Data Brain). Provides common auth, crypto, error handling, types, and validation schemas.
+Shared infrastructure library used by Brain services (Storage Brain). Provides common auth, crypto, error handling, types, and validation schemas.
 
 ## Features
 
