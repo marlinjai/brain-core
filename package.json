@@ -84,5 +84,9 @@
   ],
   "author": "marlinjai",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marlinjai/brain-core.git"
+  },
   "packageManager": "pnpm@9.15.0"
 }
