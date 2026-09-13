@@ -1,3 +1,18 @@
+# 1.0.0 (2026-09-13)
+
+
+### Bug Fixes
+
+* add Node.js fallback for timingSafeEqual in admin auth ([e2e2799](https://github.com/marlinjai/brain-core/commit/e2e2799443e2dfe3c542752579f182b5b53f4767))
+* **ci:** switch docs deploy to 1Password + direct wrangler ([208e0e8](https://github.com/marlinjai/brain-core/commit/208e0e8f85291e1862ae92b97d2df3c13ada3f30))
+* **ci:** update clearify to 1.11.2 for SSR pre-rendering fix ([4c642d4](https://github.com/marlinjai/brain-core/commit/4c642d46f86e4b4b47054e6809118158fa6d387f))
+
+
+### Features
+
+* add createUserAuthMiddleware for user-facing JWT/session auth (v0.2.0) ([4fffdac](https://github.com/marlinjai/brain-core/commit/4fffdacecb3ded9e2d6466f744509834ea8d25ff))
+* initial @marlinjai/brain-core package ([8c99b33](https://github.com/marlinjai/brain-core/commit/8c99b33c254352fb47e2329688774760e35f5f7c))
+
 ---
 title: Brain Core Changelog
 summary: Version history for Brain Core shared infrastructure package, tracking releases from v0.1.0 through v0.2.0 including auth middlewares, crypto utilities, error handling, and base types for Brain services.
