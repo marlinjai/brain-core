@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/marlinjai/brain-core/compare/v1.0.0...v2.0.0) (2026-11-08)
+
+
+### chore
+
+* **deps:** raise zod peer and dev floor to ^4.6.7 ([#4](https://github.com/marlinjai/brain-core/issues/4)) ([216864e](https://github.com/marlinjai/brain-core/commit/216864eb99ede742070b723ceda219319e2c3cdb))
+
+
+### BREAKING CHANGES
+
+* **deps:** zod peer range raised to ^4.6.7; consumers must use Zod 4.6.7+.
+
 # 1.0.0 (2026-09-13)
 
 
